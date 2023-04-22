@@ -16,7 +16,7 @@ users = {
 JWT_SECRET_KEY = 'myjwtsecret'
 
 # Define the token expiration time in seconds
-TOKEN_EXPIRATION_TIME = 300
+TOKEN_EXPIRATION_TIME = 6000
 
 # Define the function to generate a JWT token for a given user
 def generate_token(username):
